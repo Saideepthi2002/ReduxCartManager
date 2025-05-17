@@ -217,13 +217,13 @@ const App = () => {
 
   return (
     <div className="cart-container">
-      <h1 className="header">🛒 Cart Manager</h1>
+      <h1 className="header">Cart Manager</h1>
 
       <div className="cart-box">
         <h2 className="cart-title">Shopping Cart</h2>
 
         {items.length === 0 ? (
-          <p className="empty">Your cart is empty</p>
+          <p className="empty">Your cart is empty!!!</p>
         ) : (
           items.map((item) => (
             <div key={item.id} className="cart-row">
